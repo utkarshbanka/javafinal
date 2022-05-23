@@ -1,0 +1,37 @@
+Why String is immutable in java and what is the difference between String and String Builder? And Write some
+of the methods of String class at least 5 with example.
+
+
+Answer = String is immutable becouse a immutable is object whose content can not change after created 
+and String builder is mutable is whose content is change after created
+
+
+example  ;
+
+
+class course {
+
+public static void main (String [] args)
+{
+   first one //comment 
+       
+       String check = "ak";
+		check= check + "ck";
+		System.out.println(check)
+//output = akck;
+
+
+
+
+Second //comment
+
+  String check = "Hellow";
+  check = check.concat(str "Admin")
+  System.out.println(check)
+//output = hellow Admin
+
+
+
+}
+
+}
